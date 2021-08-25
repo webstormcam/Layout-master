@@ -4,6 +4,7 @@
 
 .container{
     display: grid;
+    grid-template-columns: auto-fill ;
  grid-template-rows: 1fr 8fr;
   
 
@@ -17,7 +18,7 @@
     padding:30px 50px;
     /* margin:40px 60px; */
     cursor:pointer;
-    display:inline-block;
+    /* display:inline-block; */
     color:#FFF;
     font-size:2em;
     border-radius:4px;
@@ -89,13 +90,15 @@
 nav{
     display: flex;
     justify-content: space-between;
-    /* width: 100%; */
+    /* width: 100%; */ 
+    font-size: 1.6rem;
+ 
 }
 
 ul{
     display: inline;
     display: flex;
-    justify-content: space-between;
+    
    
 }
 
@@ -103,11 +106,15 @@ li{
     display: inline;
     padding-left: 1rem;
     padding-right: 1rem;
+    
+   
 }
 
 a{
     text-decoration: none;
     color: #fff;
+    
+    
 }
 
 .red{
@@ -117,7 +124,24 @@ a{
     align-items: center;
 }
 
-@media(max-width:768px){
+.blue{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    grid-template-rows: 1fr;
+
+}
+
+.card{
+    background: black;
+    width: 300px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+@media  only screen and (max-width:600px){
     li{
         font-size: 1.1rem;
     }
@@ -125,4 +149,8 @@ a{
     a{
         font-size: 1.1rem;
     }
+
+ 
+
+    
 }
