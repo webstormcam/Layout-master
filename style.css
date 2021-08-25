@@ -136,13 +136,17 @@ a{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
     grid-template-rows: 1fr;
-    gap: 10px;
+    gap: 40px;
 
 }
 
 .card{
     background: black;
     text-align: center;
+    padding-left:0.4rem ;
+    padding-right:0.4rem ;
+    padding-top:10rem ;
+    padding-bottom:10rem ;
     
 }
 
