@@ -4,7 +4,7 @@
 
 .container{
     display: grid;
-    grid-template-columns: minmax(1fr,2fr) 2fr;
+    grid-template-columns: minmax(300px,1fr);
 
    
     
@@ -91,11 +91,14 @@
 
 
 
+
+
 nav{
     display: flex;
     justify-content: space-between;
     /* width: 100%; */ 
     font-size: 1.6rem;
+    
  
 }
 
@@ -158,5 +161,17 @@ img{
  
 
     
+}
+
+@media only screen and (max-width:438px){
+    li{
+        font-size: 0.8rem;
+    }
+
+    a{
+        font-size: 0.8rem;
+    }
+
+   
 }
 
