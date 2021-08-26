@@ -129,7 +129,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 66vh;
 }
 
 .blue{
@@ -143,7 +143,7 @@ a{
 }
 
 .card{
-    background: black;
+    background: rgb(70, 67, 67);
     text-align: center;
     padding-left:0.2rem ;
     padding-right:0.2rem ;
@@ -153,8 +153,8 @@ a{
 }
 
 img{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
 }
 
 .yellow{
@@ -169,6 +169,10 @@ img{
 
     a{
         font-size: 1.1rem;
+    }
+
+    .yellow p{
+        font-size: 1.5rem;
     }
 
  
